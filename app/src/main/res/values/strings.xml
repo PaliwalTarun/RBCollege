@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">R.B.College</string>
+    <string name="admin"> Admin</string>
+    <string name="r_b_institute_and_management">R.B. Institute and Management</string>
+    <string name="weekly_statement">weekly Statement</string>
+    <string name="name_of_faculty">Name Of Faculty</string>
+    <string name="faculty_name">Faculty name</string>
+    <string name="subject">subject</string>
+    <string name="subject_name">Subject Name</string>
+    <string name="date">Date</string>
+    <string name="button">Click here</string>
+    <string name="user">Faculty</string>
+    <string name="time">Time</string>
+    <string name="content_of_lecture_delivered">Content of the Lecture Delivered</string>
+    <string name="content_of_the_lecture_delivered">Content of the Lecture Delivered</string>
+    <string name="content">content</string>
+    <string name="number_of_student_present">Number Of Student Present</string>
+    <string name="number_of_student">number_of_student</string>
+    <string name="submit">submit</string>
+    <string name="Register_AS_a">Register</string>
+</resources>

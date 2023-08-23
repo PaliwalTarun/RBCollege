@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        tools:context= ".MainActivity">
+
+
+
+
+        <TableRow
+            android:id="@+id/row1"
+            android:layout_width="fill_parent"
+            android:layout_height="65dp"
+            android:stretchColumns="0">
+
+            <TextView
+                android:id="@+id/tx1"
+                android:layout_width="fill_parent"
+                android:layout_height="49dp"
+                android:textAlignment="center"
+                android:text="@string/r_b_institute_and_management"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/row2">
+
+            <TextView
+                android:id="@+id/tx2"
+                android:layout_width="wrap_content"
+                android:paddingBottom="50dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="@string/weekly_statement"
+                android:textSize="19sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row3"
+            android:layout_width="177dp"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/tx3"
+                android:layout_width="305dp"
+                android:layout_height="match_parent"
+                android:text="@string/name_of_faculty"
+                android:textSize="20sp" />
+
+
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/row4">
+
+            <EditText
+                android:id="@+id/facultyName"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:autofillHints="faculty name"
+                android:ems="10"
+                android:hint="@string/faculty_name"
+                android:inputType="text"
+                android:textSize="20sp"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/row5">
+
+            <TextView
+                android:id="@+id/tx5"
+                android:layout_width="410dp"
+                android:layout_height="37dp"
+                android:text="@string/subject"
+                android:textSize="20sp"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/row6">
+            <EditText
+                android:id="@+id/subjectName"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:hint="@string/subject_name"
+                android:autofillHints="subject name"
+                android:ems="10"
+                android:inputType="text"
+                android:textSize="20sp"/>
+        </TableRow>
+        <!--            <TableRow-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:id="@+id/row7">-->
+        <!--                <TextView-->
+        <!--                    android:id="@+id/tx7"-->
+        <!--                    android:layout_width="167dp"-->
+        <!--                    android:layout_height="37dp"-->
+        <!--                    android:text="@string/sr_no"-->
+        <!--                    android:textSize="20sp" />-->
+        <!--            </TableRow>-->
+        <!--            <TableRow-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:id="@+id/row8">-->
+
+        <!--                <EditText-->
+        <!--                    android:id="@+id/editTextText2"-->
+        <!--                    android:layout_width="match_parent"-->
+        <!--                    android:layout_height="63dp"-->
+        <!--                    android:ems="10"-->
+        <!--                    android:hint="@string/sr_number"-->
+        <!--                    android:autofillHints="SR number"-->
+        <!--                    android:inputType="text" />-->
+        <!--            </TableRow>-->
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/row9">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tx9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="37dp"
+                    android:text="@string/date"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/tx10"
+                    android:layout_width="167dp"
+                    android:layout_height="37dp"
+                    android:textSize="20sp"/>
+            </LinearLayout>
+
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btrow11">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tx11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="37dp"
+                    android:text="@string/time"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/tx20"
+                    android:layout_width="167dp"
+                    android:layout_height="37dp"
+                    android:textSize="20sp" />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/btrow12"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"/>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btrow13">
+
+            <TextView
+                android:id="@+id/tx13"
+                android:layout_width="167dp"
+                android:layout_height="37dp"
+                android:contentDescription="@string/content_of_lecture_delivered"
+                android:text="@string/content_of_the_lecture_delivered"
+                android:textSize="20sp" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btrow14">
+
+            <EditText
+                android:id="@+id/contentDelivered"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:ems="10"
+                android:autofillHints="content"
+                android:gravity="start|top"
+                android:hint="@string/content"
+                android:inputType="textMultiLine"
+                tools:layout_editor_absoluteX="13dp"
+                tools:layout_editor_absoluteY="155dp"
+                android:textSize="20sp"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btrow15">
+            <TextView
+                android:id="@+id/tx15"
+                android:layout_width="167dp"
+                android:layout_height="37dp"
+                android:text="@string/number_of_student_present"
+                android:textSize="20sp"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btrow20">
+            <EditText
+                android:id="@+id/noOfStudentPresent"
+                android:layout_width="395dp"
+                android:layout_height="65dp"
+                android:ems="10"
+                android:autofillHints="number of student"
+                android:hint="@string/number_of_student"
+                android:inputType="number"
+                tools:layout_editor_absoluteX="76dp"
+                tools:layout_editor_absoluteY="130dp"
+                android:textSize="20sp"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/btrow17"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/submitBtn"
+                android:layout_width="327dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="45dp"
+                android:text="@string/submit"
+                android:textSize="20sp"
+                tools:ignore="textSize"/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>
+
+
+
+

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/labelId"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="ID"
+                android:textSize="25sp"/>
+            <TextView
+                android:id="@+id/showId"
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="23sp"
+                android:text="showID"/>
+            <TextView
+                android:id="@+id/labelFacultyName"
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Faculty Name"
+                android:textSize="25sp"/>
+            <TextView
+                android:id="@+id/showFacultyName"
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="23sp"
+                android:text="showFacultyName"/>
+            <TextView
+                android:id="@+id/labelsubjectName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Subject Name"
+                android:textSize="25sp"/>
+            <TextView
+                android:id="@+id/showSubjectName"
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="23sp"
+                android:text="showSubjectName"/>
+
+            <TextView
+
+                android:id="@+id/labelContentDeliverd"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Content Delivered"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/showContentDeliverd"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="showContentDelivered"
+                android:textSize="23sp" />
+
+            <TextView
+                android:id="@+id/labelNoOfStudent"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Number of Student Present"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/showNoOfStudent"
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="23sp"
+                android:text="show Number of Student Present"/>
+
+            <TextView
+                android:id="@+id/labelDate"
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Date-Time"
+                android:textSize="25sp"/>
+            <TextView
+                android:id="@+id/showDate"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="23sp"
+                android:text="showDateTime"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
